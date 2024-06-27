@@ -6,9 +6,9 @@ import java.sql.SQLException;
 
 public class DatabaseConnection {
 
-    private static final String url = "jdbc:postgresql://localhost:5432/lms";
-    private static final String user = "postgres";
-    private static final String password = "12345";
+    private static final String url = System.getenv("url");
+    private static final String user = System.getenv("username");
+    private static final String password = System.getenv("password");
 
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(url, user, password);
