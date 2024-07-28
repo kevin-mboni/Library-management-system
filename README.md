@@ -2,6 +2,11 @@
 ## Project Overview
 Library Management System project is designed to provide a comprehensive learning experience in software development. It integrates multiple key concepts, including object-oriented programming, data structures, database design, SQL, and JDBC, to create a sophisticated system for managing library resources.
 
+## Loom video
+```bash
+https://www.loom.com/share/55651eec310e4b3c8f634253c0f91c53
+```
+
 ## Features
 ### User Management
 
